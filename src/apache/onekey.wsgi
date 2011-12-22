@@ -1,7 +1,8 @@
 import os, sys
 
-sys.path.append('/home/pratz/webapps/onekey/src/onekey')
-sys.path.append('/home/pratz/webapps/onekey/src')
+PROJECT_ROOT = os.path.abspath(os.path.join(os.getcwd(), os.path.pardir))
+sys.path.append(PROJECT_ROOT+'/onekey')
+sys.path.append(PROJECT_ROOT)
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'onekey.settings'
 
