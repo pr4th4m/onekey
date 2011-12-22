@@ -1,0 +1,132 @@
+/***************** body start **********************/
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+    margin : 0px auto ;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width: 840px;
+}
+/***************** body end **********************/
+
+/***************** common start **********************/
+.black-strip {
+    background: black ;
+    width : 100% ;
+    height : 4px; 
+}
+/***************** common end **********************/
+
+/***************** head start **********************/
+#main-header {
+    background: #04295A ;
+    width: 100%;
+}
+.logo-holder {
+    padding : 10px 30px 0px 15px ;
+    margin : 0px 10px ;
+    text-align  : right ;
+    font-weight: 900;
+    font-size : 30px;
+    color : white ;
+}
+/***************** head end **********************/
+
+
+/***************** left container start **********************/
+#left-container {
+    background-image : url('../images/blue_strip.jpg') ;
+    background-repeat : repeat-x ;
+    float: left;
+    width: 60%;
+    height : 450px; 
+}
+.slogan-holder {
+    width : auto ;
+    margin : 20px 25px; 
+
+}
+/***************** left container end **********************/
+
+
+/***************** right container start **********************/
+#right-container {
+    background-image : url('../images/blue_strip.jpg') ;
+    background-repeat : repeat-x ;
+    width: 40%;
+    overflow : hidden ;
+    height : 450px ;
+}
+.input-holder {
+    width : auto ;
+    margin : 25px 25px ;
+}
+.input-holder-title {
+    border : 1px solid #043C87 ;
+    background: #043C87 ;
+    width : auto ;
+    padding : 3px 6px ;
+    font-weight: bold ;
+    color : white ;
+}
+.input-holder-content {
+    width : auto ;
+    padding : 2px 2px ;
+    margin : 2px 2px ;
+    overflow : hidden ;
+}
+.input-holder-label {
+    width : 35% ;
+    float : left ;
+    padding : 4px 2px ;
+    margin : 0px 2px ;
+}
+.input-holder-value {
+    width : 60% ;
+    overflow : hidden ;
+    padding : 2px ;
+}
+.text-box {
+    border : 1px solid gray ;
+    width : 100% ;
+}
+
+.button {
+    color: white;
+    background: #043C87 ;
+    text-decoration:none;
+    display:block;
+    border:1px solid gray ;
+    text-align:center;
+    padding : 3px 20px ;
+    cursor : pointer ;
+    float : right ;
+
+    /*
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+    */
+}
+/***************** right container end **********************/
+
+/***************** bottom container start **********************/
+#bottom-container {
+    background: #04295A  ;
+    width: 100%;
+    height : 30px ;
+    color white ;
+}
+.copyright-holder {
+    width : auto ;
+    color : white ;
+    font-weight: bold ;
+    padding : 3px 15px ;
+}
+/***************** bottom container end **********************/
+

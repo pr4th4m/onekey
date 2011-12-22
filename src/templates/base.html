@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title> OneKey- {% block title %}Welcome{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL}}css/base.css" />
+        {% block css %}
+        {% endblock %}
+        {% block js %}
+        {% endblock %}
+    </head>
+
+    <body>
+        <div id="wrapper">
+             
+            <div id="main-header">
+                <div class="logo-holder">
+                OneKey
+                </div>
+                <div class="black-strip">
+                </div>
+            </div>
+            <div id="center-container">
+
+            {% block profile_stat %}
+            {% endblock %}
+            {% block visited_stat %}
+            {% endblock %}
+            {% block content %}
+            {% endblock %}
+            </div>
+
+            <div id="bottom-container">
+                <div class="black-strip">
+                </div>
+                <div class="copyright-holder">
+                    @ Copyright  OneKey
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
