@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADMINS	settings.py	/^ADMINS = ($/;"	v
+ADMIN_MEDIA_PREFIX	settings.py	/^ADMIN_MEDIA_PREFIX = '\/static\/admin\/'$/;"	v
+DATABASES	settings.py	/^DATABASES = {$/;"	v
+DEBUG	settings.py	/^    DEBUG = False$/;"	v
+DEBUG	settings.py	/^    DEBUG = True$/;"	v
+HttpResponse	services/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	views.py	/^from django.http import HttpResponse$/;"	i
+INSTALLED_APPS	settings.py	/^INSTALLED_APPS = ($/;"	v
+IPDB_DEBUG	settings.py	/^    IPDB_DEBUG = False$/;"	v
+IPDB_DEBUG	settings.py	/^    IPDB_DEBUG = True$/;"	v
+LANGUAGE_CODE	settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGGING	settings.py	/^LOGGING = {$/;"	v
+MANAGERS	settings.py	/^MANAGERS = ADMINS$/;"	v
+MEDIA_ROOT	settings.py	/^MEDIA_ROOT = ''$/;"	v
+MEDIA_URL	settings.py	/^    MEDIA_URL = ''$/;"	v
+MEDIA_URL	settings.py	/^    MEDIA_URL = 'http:\/\/localhost\/onekey\/media\/'$/;"	v
+MEDIA_URL	settings.py	/^MEDIA_URL = 'http:\/\/localhost\/onekey\/media\/'$/;"	v
+MIDDLEWARE_CLASSES	settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+PROJECT_ROOT	settings.py	/^PROJECT_ROOT = os.path.dirname(__file__)$/;"	v
+ROOT_URLCONF	settings.py	/^ROOT_URLCONF = 'onekey.urls'$/;"	v
+RequestContext	services/views.py	/^from django.template import RequestContext$/;"	i
+RequestContext	views.py	/^from django.template import RequestContext$/;"	i
+SITE_ID	settings.py	/^SITE_ID = 1$/;"	v
+STATICFILES_DIRS	settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_URL	settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SimpleTest	services/tests.py	/^class SimpleTest(TestCase):$/;"	c
+SimpleTest	usr/tests.py	/^class SimpleTest(TestCase):$/;"	c
+TEMPLATE_DEBUG	settings.py	/^TEMPLATE_DEBUG = DEBUG$/;"	v
+TEMPLATE_DIRS	settings.py	/^TEMPLATE_DIRS = ($/;"	v
+TEMPLATE_LOADERS	settings.py	/^TEMPLATE_LOADERS = ($/;"	v
+TIME_ZONE	settings.py	/^TIME_ZONE = 'America\/Chicago'$/;"	v
+TestCase	services/tests.py	/^from django.test import TestCase$/;"	i
+TestCase	usr/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	settings.py	/^USE_L10N = True$/;"	v
+admin	urls.py	/^from django.contrib import admin$/;"	i
+debug	debug.py	/^def debug() :$/;"	f
+debug	services/views.py	/^from onekey.debug import debug$/;"	i
+debug	views.py	/^from onekey.debug import debug$/;"	i
+display	services/views.py	/^def display(request) :$/;"	f
+display	usr/views.py	/^from onekey.services import display$/;"	i
+execute_manager	manage.py	/^from django.core.management import execute_manager$/;"	i
+imp	manage.py	/^import imp$/;"	i
+include	services/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+include	urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+include	usr/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+index	views.py	/^def index(request):$/;"	f
+ipdb	debug.py	/^        import ipdb$/;"	i
+models	services/models.py	/^from django.db import models$/;"	i
+models	usr/models.py	/^from django.db import models$/;"	i
+os	settings.py	/^import os $/;"	i
+patterns	services/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+patterns	urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+patterns	usr/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+render_to_response	services/views.py	/^from django.shortcuts import render_to_response$/;"	i
+render_to_response	views.py	/^from django.shortcuts import render_to_response$/;"	i
+settings	debug.py	/^from django.conf import settings$/;"	i
+settings	manage.py	/^import settings$/;"	i
+socket	settings.py	/^import socket$/;"	i
+sys	manage.py	/^    import sys$/;"	i
+test_basic_addition	services/tests.py	/^    def test_basic_addition(self):$/;"	m	class:SimpleTest
+test_basic_addition	usr/tests.py	/^    def test_basic_addition(self):$/;"	m	class:SimpleTest
+url	services/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+url	urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+url	usr/urls.py	/^from django.conf.urls.defaults import patterns, include, url$/;"	i
+urlpatterns	services/urls.py	/^urlpatterns = patterns('services.views',$/;"	v
+urlpatterns	urls.py	/^urlpatterns = patterns('',$/;"	v
+urlpatterns	usr/urls.py	/^urlpatterns = patterns('usr.views',$/;"	v
