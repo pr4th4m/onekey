@@ -1,4 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
-{{ display_service }}
-{% endblock%}
+<input id="flag" type="button"  value="Click Me" />
+
+<form action="/services/display/" method="post">
+<br/>
+{{ author.name.label }}
+{{ author.name }}
+
+<br/>
+{{ author.title.label }}
+{{ author.title }}
+
+<br/>
+{{ author.birth_date.label }}
+{{ author.birth_date }}
+
+<br/>
+<input type="submit" value="save" />   
+</form>
+
+{% endblock %}
+
+
+{% block js %}
+<script type="text/javascript" src="{{ MEDIA_URL }}js/test.js"> </script>
+{% endblock %}

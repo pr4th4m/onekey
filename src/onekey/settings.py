@@ -114,7 +114,7 @@ TEMPLATE_LOADERS = (
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'domain.middleware.DomainFinder',
@@ -144,6 +144,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'services',
     'usr',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging

@@ -3,30 +3,29 @@
     <head>
         <title> OneKey- {% block title %}Welcome{% endblock %}</title>
         <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL}}css/base.css" />
+        <script type="text/javascript" src="{{ MEDIA_URL}}js/jquery-1.7.1.js" > </script>
         {% block css %}
-        {% endblock %}
-        {% block js %}
         {% endblock %}
     </head>
 
     <body>
         <div id="wrapper">
-             
+
             <div id="main-header">
                 <div class="logo-holder">
-                OneKey
+                    OneKey
                 </div>
                 <div class="black-strip">
                 </div>
             </div>
             <div id="center-container">
 
-            {% block profile_stat %}
-            {% endblock %}
-            {% block visited_stat %}
-            {% endblock %}
-            {% block content %}
-            {% endblock %}
+                {% block profile_stat %}
+                {% endblock %}
+                {% block visited_stat %}
+                {% endblock %}
+                {% block content %}
+                {% endblock %}
             </div>
 
             <div id="bottom-container">
@@ -37,6 +36,8 @@
                 </div>
             </div>
         </div>
+    {% block js %}
+    {% endblock %}
     </body>
 </html>
 
